@@ -1,0 +1,46 @@
+/*
+Theme Name: Class of '26
+Theme URI: https://github.com/Nilma
+Author: Nilma Abbas
+Author URI: https://github.com/Shahad1991
+Description: Class of '26 emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Version: 1.0
+Text Domain: classof26
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2ebeb;
+}
+header {
+    background-color: #9e9b9b;
+    color: #fff;
+    padding: 1rem;   
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+footer {
+    background-color: #9e9b9b;
+    color: #494646;
+    padding: 1rem;
+    text-align: center;
+}
